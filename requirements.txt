@@ -1,0 +1,7 @@
+# Preparação dos dados (única biblioteca permitida pelo enunciado)
+pandas
+# Somente para desenhar as figuras do relatório
+matplotlib
+# Somente para gerar a apresentação a partir do template
+python-pptx
+Pillow

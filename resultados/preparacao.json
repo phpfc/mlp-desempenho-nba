@@ -1,0 +1,18 @@
+{
+  "linhas_brutas": 624,
+  "linhas_sem_alvo": 2,
+  "jogadores_trocados": 57,
+  "linhas_por_time_removidas": 114,
+  "faltantes_FG%": 2,
+  "faltantes_3P%": 19,
+  "faltantes_2P%": 5,
+  "faltantes_FT%": 33,
+  "faltantes_eFG%": 2,
+  "linhas_limpas": 508,
+  "classe_good": 49,
+  "classe_bad": 459,
+  "treino_total": 355,
+  "treino_good": 34,
+  "teste_total": 153,
+  "teste_good": 15
+}

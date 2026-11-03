@@ -1,0 +1,18 @@
+# Ambiente e cache
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Arquivos originais baixados do AVA (cópias versionadas em dados/ e apresentacao/)
+dbb039b4-023b-4a75-a68e-0ddbd4d00467.csv
+ea159648-f7f8-48a4-973f-39e4c622a022.pptx
+enunciado.txt
+criterios-avaliacao.txt
+
+# Intermediários de LaTeX
+*.aux
+*.log
+!resultados/experimentos.log
+*.toc
+*.out

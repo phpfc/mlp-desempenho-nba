@@ -1,0 +1,49 @@
+treino: 355 (34 Good)  teste: 153 (15 Good)  atributos: 31
+peso balanceado da classe positiva: 9.44
+
+[A] grid (24 configs x 5 folds) em 239s
+  16 | taxa=0.1 | pw=1.0 | sigmoide        f1=0.899±0.088 acc=0.980 rec=0.938 prec=0.864 auc=0.997
+  8 | taxa=0.1 | pw=1.0 | sigmoide         f1=0.883±0.087 acc=0.977 rec=0.910 prec=0.861 auc=0.995
+  8 | taxa=0.5 | pw=1.0 | sigmoide         f1=0.883±0.087 acc=0.977 rec=0.910 prec=0.861 auc=0.993
+  16 | taxa=0.5 | pw=1.0 | sigmoide        f1=0.883±0.087 acc=0.977 rec=0.910 prec=0.861 auc=0.995
+  32 | taxa=0.1 | pw=1.0 | sigmoide        f1=0.883±0.087 acc=0.977 rec=0.910 prec=0.861 auc=0.997
+  32 | taxa=0.5 | pw=1.0 | sigmoide        f1=0.883±0.087 acc=0.977 rec=0.910 prec=0.861 auc=0.996
+  16-8 | taxa=0.1 | pw=1.0 | sigmoide      f1=0.883±0.087 acc=0.977 rec=0.910 prec=0.861 auc=0.997
+  16-8 | taxa=0.5 | pw=1.0 | sigmoide      f1=0.883±0.087 acc=0.977 rec=0.910 prec=0.861 auc=0.995
+  16 | taxa=0.1 | pw=9.4 | sigmoide        f1=0.879±0.077 acc=0.975 rec=0.967 prec=0.808 auc=0.996
+  32 | taxa=0.1 | pw=9.4 | sigmoide        f1=0.877±0.067 acc=0.975 rec=0.967 prec=0.804 auc=0.996
+  16 | taxa=0.5 | pw=9.4 | sigmoide        f1=0.877±0.111 acc=0.975 rec=0.938 prec=0.826 auc=0.996
+  16-8 | taxa=0.1 | pw=9.4 | sigmoide      f1=0.877±0.111 acc=0.975 rec=0.938 prec=0.826 auc=0.995
+  16-8 | taxa=0.5 | pw=9.4 | sigmoide      f1=0.877±0.111 acc=0.975 rec=0.938 prec=0.826 auc=0.995
+  8 | taxa=0.1 | pw=9.4 | sigmoide         f1=0.867±0.071 acc=0.972 rec=0.967 prec=0.788 auc=0.995
+  32 | taxa=0.5 | pw=9.4 | sigmoide        f1=0.861±0.101 acc=0.972 rec=0.910 prec=0.818 auc=0.995
+  8 | taxa=0.5 | pw=9.4 | sigmoide         f1=0.849±0.087 acc=0.969 rec=0.910 prec=0.798 auc=0.994
+  32 | taxa=0.01 | pw=9.4 | sigmoide       f1=0.811±0.059 acc=0.955 rec=1.000 prec=0.686 auc=0.997
+  32 | taxa=0.01 | pw=1.0 | sigmoide       f1=0.809±0.162 acc=0.972 rec=0.729 prec=0.975 auc=0.998
+  16 | taxa=0.01 | pw=9.4 | sigmoide       f1=0.792±0.063 acc=0.949 rec=1.000 prec=0.659 auc=0.997
+  8 | taxa=0.01 | pw=9.4 | sigmoide        f1=0.791±0.032 acc=0.949 rec=1.000 prec=0.655 auc=0.995
+  16-8 | taxa=0.01 | pw=9.4 | sigmoide     f1=0.774±0.052 acc=0.944 rec=1.000 prec=0.633 auc=0.998
+  8 | taxa=0.01 | pw=1.0 | sigmoide        f1=0.758±0.073 acc=0.963 rec=0.614 prec=1.000 auc=0.995
+  16 | taxa=0.01 | pw=1.0 | sigmoide       f1=0.745±0.166 acc=0.963 rec=0.619 prec=1.000 auc=0.998
+  16-8 | taxa=0.01 | pw=1.0 | sigmoide     f1=0.000±0.000 acc=0.904 rec=0.000 prec=0.000 auc=0.997
+
+[B] ativações em 14s
+  16 | taxa=0.1 | pw=1.0 | sigmoide        f1=0.899±0.088 acc=0.980 auc=0.997
+  16 | taxa=0.1 | pw=1.0 | tanh            f1=0.883±0.087 acc=0.977 auc=0.995
+  16 | taxa=0.1 | pw=1.0 | relu            f1=0.857±0.113 acc=0.975 auc=0.993
+
+[C] épocas escolhidas: 110
+
+[D] 5 execuções finais em 3s
+  semente 0: acc=0.974 prec=0.789 rec=1.000 esp=0.971 f1=0.882 auc=0.995 VP=15 FP=4 VN=134 FN=0
+  semente 1: acc=0.974 prec=0.824 rec=0.933 esp=0.978 f1=0.875 auc=0.995 VP=14 FP=3 VN=135 FN=1
+  semente 2: acc=0.974 prec=0.824 rec=0.933 esp=0.978 f1=0.875 auc=0.994 VP=14 FP=3 VN=135 FN=1
+  semente 3: acc=0.980 prec=0.875 rec=0.933 esp=0.986 f1=0.903 auc=0.996 VP=14 FP=2 VN=136 FN=1
+  semente 4: acc=0.967 prec=0.778 rec=0.933 esp=0.971 f1=0.848 auc=0.994 VP=14 FP=4 VN=134 FN=1
+  erros da execução mediana: [{'jogador': 'Cade Cunningham', 'real': 0, 'prob': 0.7072164690958082}, {'jogador': 'Tyrese Maxey', 'real': 0, 'prob': 0.5216505689878667}, {'jogador': 'Dejounte Murray', 'real': 1, 'prob': 0.47832649951362405}, {'jogador': 'Terry Rozier', 'real': 0, 'prob': 0.672371812488767}]
+
+[E] baseline majoritária acc=0.902; regra PTS >= 20.2: {'acuracia': 0.993, 'erro': 0.007, 'precisao': 0.938, 'recall': 1.0, 'especificidade': 0.993, 'f1': 0.968, 'VP': 15, 'FP': 1, 'VN': 137, 'FN': 0, 'auc': 0.998}
+
+[F] sem pontuação (22 atributos) em 2s: acc=0.957 prec=0.750 rec=0.840 f1=0.792 auc=0.981
+
+concluído em 259s
